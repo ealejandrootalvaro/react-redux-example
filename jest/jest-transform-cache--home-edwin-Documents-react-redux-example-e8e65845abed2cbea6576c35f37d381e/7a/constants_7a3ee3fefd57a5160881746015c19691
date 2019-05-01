@@ -1,0 +1,2 @@
+/* istanbul ignore next */"use strict";Object.defineProperty(exports, "__esModule", { value: true });const INCREMENT = /* istanbul ignore next */exports.INCREMENT = "increment";
+const DECREMENT = /* istanbul ignore next */exports.DECREMENT = "decrement";

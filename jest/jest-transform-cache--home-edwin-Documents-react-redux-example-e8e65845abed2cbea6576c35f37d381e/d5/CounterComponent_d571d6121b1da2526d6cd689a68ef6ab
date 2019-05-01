@@ -1,0 +1,13 @@
+/* istanbul ignore next */"use strict";Object.defineProperty(exports, "__esModule", { value: true });var _jsxFileName = "/home/edwin/Documents/react/redux-example/src/components/Counter/components/CounterComponent.js";var /* istanbul ignore next */_react = require("react"); /* istanbul ignore next */var _react2 = _interopRequireDefault(_react);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+const Counter = ({ counter, increment, decrement }) => {
+    return (
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"div", /* istanbul ignore next */{ __source: { fileName: _jsxFileName, lineNumber: 5 }, __self: undefined },
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"h1", /* istanbul ignore next */{ __source: { fileName: _jsxFileName, lineNumber: 6 }, __self: undefined }, /* istanbul ignore next */"Counter: ", counter),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"button", /* istanbul ignore next */{ className: "increment-counter", onClick: increment, __source: { fileName: _jsxFileName, lineNumber: 7 }, __self: undefined }, /* istanbul ignore next */"Increment"),
+            /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */"button", /* istanbul ignore next */{ className: "decrement-counter", onClick: decrement, __source: { fileName: _jsxFileName, lineNumber: 8 }, __self: undefined }, /* istanbul ignore next */"Decrement")));
+
+
+}; /* istanbul ignore next */exports.default =
+
+Counter;

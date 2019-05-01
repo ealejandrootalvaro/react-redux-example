@@ -1,0 +1,14 @@
+/* istanbul ignore next */'use strict';Object.defineProperty(exports, "__esModule", { value: true });exports.counterReducer = undefined;var /* istanbul ignore next */_constants = require('./constants'); /* istanbul ignore next */exports.default =
+
+(state = 0, action) => {
+    switch (action.type) {
+        case /* istanbul ignore next */_constants. /* istanbul ignore next */INCREMENT:
+            return state + 1;
+        case /* istanbul ignore next */_constants. /* istanbul ignore next */DECREMENT:
+            return state - 1;
+        default:
+            return state;}
+
+};
+
+const counterReducer = /* istanbul ignore next */exports.counterReducer = 'counterReducer';

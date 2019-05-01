@@ -1,0 +1,9 @@
+/* istanbul ignore next */'use strict';Object.defineProperty(exports, "__esModule", { value: true });exports.decrement = exports.increment = undefined;var /* istanbul ignore next */_constants = require('./constants');
+
+
+const increment = /* istanbul ignore next */exports.increment = () => ({
+    type: /* istanbul ignore next */_constants. /* istanbul ignore next */INCREMENT });
+
+
+const decrement = /* istanbul ignore next */exports.decrement = () => ({
+    type: /* istanbul ignore next */_constants. /* istanbul ignore next */DECREMENT });
